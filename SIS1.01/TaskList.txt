@@ -1,0 +1,33 @@
+Students
+========
+Student Info		Chevie+
+Student Attendance 	Dave
+
+Teachers
+========
+Teacher Info		Sam
+
+Staff
+=====
+Staff Info		Rui Rong+
+Staff Attendance	Brandon
+Staff Leave		Wei Lim
+
+School
+======
+Dashboard		Richard
+Student			Wan+
+Program			CK
+Classes			CK+
+Sections		CK+
+Teachings		Kiew+
+Subjects		Kiew+
+Attendance		Dave+
+Attendance Report	Dave+
+Exam			Kai
+Scheduling		ChangWang
+
+Admin
+=====
+School Info		Richard
+Gallery			Jason

@@ -1,0 +1,119 @@
+
+Online Image Map Editor
+ 
+home :
+about :
+overview
+features
+bugs and issues
+changelog
+credits
+online editor :
+desktop editor :
+license :
+purchase :
+download :
+donate :
+
+ 
+
+ 
+Select source
+Use an image on your computer:
+Uploaded image002.png- upload another
+accept
+OR an image on the Internet:
+http://
+accept
+OR use a sample image:
+sample 1
+accept
+Image map areas
+Add new area  Delete selected area  Preview image map  Get image map HTML
+Zoom:  
+100%
+ Output:  
+Standard imagemap
+ bounding box   
+Label with numbers
+ 
+0
+
+polygon
+Coords: 
+303,11,366,8,395,63,367,118,301,119,271,66
+Href: 
+Alt: 
+Target: 
+<not set>
+1
+
+polygon
+Coords: 
+432,83,492,81,529,138,497,197,424,197,393,139
+Href: 
+Alt: 
+Target: 
+<not set>
+2
+
+polygon
+Coords: 
+431,230,492,224,526,283,495,339,424,339,392,282
+Href: 
+Alt: 
+Target: 
+<not set>
+3
+
+polygon
+Coords: 
+305,303,366,301,399,358,370,411,301,413,268,357
+Href: 
+Alt: 
+Target: 
+<not set>
+4
+
+polygon
+Coords: 
+177,227,238,226,271,283,240,337,171,338,140,281
+Href: 
+Alt: 
+Target: 
+<not set>
+5
+
+polygon
+Coords: 
+176,83,234,80,270,134,241,193,168,193,140,140
+Href: 
+Alt: 
+Target: 
+<not set>
+6
+
+polygon
+Coords: 
+296,138,375,137,418,211,378,290,286,287,248,207
+Href: 
+Alt: 
+Target: 
+<not set>
+7
+
+polygon
+Coords: 
+Href: 
+Alt: 
+Target: 
+<not set>
+0123456
+Status
+Ready
+Code
+Make payments with PayPal - it's fast, free and secure! Problems? >>> Send bug report
+
+ 
+Creative Commons License Some Rights Reserved|Subscribe
+in a reader

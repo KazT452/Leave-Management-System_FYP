@@ -1,0 +1,1 @@
+SELECT program_id FROM sms.sis_program_subject where subject_id=103;

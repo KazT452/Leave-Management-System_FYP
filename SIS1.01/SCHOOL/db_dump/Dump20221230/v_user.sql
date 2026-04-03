@@ -1,0 +1,1 @@
+CREATE VIEW `v_user` AS (select * from user)

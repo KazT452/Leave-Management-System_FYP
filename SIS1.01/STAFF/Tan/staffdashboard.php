@@ -270,7 +270,7 @@
 				</div>
 
 				<div style="margin-bottom: 15px;">
-					<label><strong>Reason</strong></label><br>
+					<label><strong>Reason (Optional)</strong></label><br>
 					<textarea name="reason" rows="4" style="width: 100%; padding: 8px; margin-top: 5px; resize: vertical;" placeholder="Enter your reason here..."></textarea>
 				</div>
 

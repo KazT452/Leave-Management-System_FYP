@@ -239,8 +239,6 @@
 	</div>
 	<div id="leaveModal" class="modal" style="display:none; position:fixed; z-index:100; left:0; top:0; width:100%; height:100%; background-color: rgba(0,0,0,0.5);">
 		<div class="modal-content" style="background-color: #fff; margin: 5% auto; padding: 25px; width: 90%; max-width: 550px; border-radius: 8px; position: relative;">
-			<h3 style="margin-top: 0;">Apply for New Leave</h3>
-			<hr>
 			<form id="leaveForm" action="submit_leave.php" method="POST" enctype="multipart/form-data">
 				<input type="hidden" name="leave_id" id="modal_leave_id" value="">
     			<h3 id="modalTitle">Apply for New Leave</h3>

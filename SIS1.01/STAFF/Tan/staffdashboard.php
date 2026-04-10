@@ -12,8 +12,8 @@
                 WHEN status = 'Pending' AND start_date < '$today' THEN 'Expired'
                 ELSE status
             END AS display_status
-            FROM leave_requests
-            WHERE staff_id = $userid";
+            FROM leave_requests lr
+            WHERE lr.staff_id = $userid";
 
     // Filter by Date Range
     if (!empty($_GET['date_range'])) {
@@ -32,13 +32,13 @@
     $isExpired  = isset($_GET['expired']);
 
     $statusFilters = [];
-    if ($isPending)  $statusFilters[] = "(lr.status = 'Pending' AND lr.start_date >= '$today')";
+    if ($isPending)  $statusFilters[] = "(lr.status = 'Pending' AND start_date >= '$today')";
     if ($isApproved) $statusFilters[] = "lr.status = 'Approved'";
     if ($isRejected) $statusFilters[] = "lr.status = 'Rejected'";
-    if ($isExpired)  $statusFilters[] = "(lr.status = 'Pending' AND lr.start_date < '$today')";
+    if ($isExpired)  $statusFilters[] = "(lr.status = 'Pending' AND start_date < '$today')";
 
     if (!empty($statusFilters)) {
-        $sql .= " AND status IN (" . implode(',', $statusFilters) . ")";
+        $sql .= " AND (" . implode(' OR ', $statusFilters) . ")";
     }
 
 	// Filter by latest requests
@@ -62,7 +62,7 @@
 </head>
 <body>
 	<div class="container-fluid p-0">
-		<div class="main-dashboard">
+		<div class="main-dashboard d-flex">
 		<nav class="sidebar collapsed border-end vh-100">
 			<div class="position-sticky pt-4 px-3">
 

@@ -26,8 +26,8 @@
 
     // Filter by Employee Name
     if (!empty($_GET['staffPicker'])) {
-        $name = mysqli_real_escape_string($conn, $_GET['staffPicker']);
-        $sql .= " AND s.staff_name LIKE '%$name%'";
+    $name = mysqli_real_escape_string($conn, $_GET['staffPicker']);
+    $sql .= " AND (CONCAT(u.first_name, ' ', u.last_name) LIKE '%$name%' OR u.first_name LIKE '%$name%' OR u.last_name LIKE '%$name%')";
     }
 
     // Filter by Date Range

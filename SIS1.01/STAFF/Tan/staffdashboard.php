@@ -72,6 +72,11 @@
 							<span class="fa fa-calendar-check me-3"></span> Leave Management
 						</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link border-transparent py-3 ps-4" href="../Tan/staffCalendar.php">
+							<span class="fa fa-calendar-check me-3"></span> Leave Calendar
+						</a>
+					</li>
 					<li class="nav-item mt-5 pt-5">
 						<a class="nav-link text-danger py-3 ps-4 border-top" href="../home.php">
 							<span class="fa fa-sign-out-alt me-3"></span> Sign out

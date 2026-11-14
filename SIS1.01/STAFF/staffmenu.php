@@ -28,5 +28,6 @@
 		<li><a href="staffreport.php"><i class="fa fa-dashboard"></i> Staff Report</a></li>
         <li><a href="staff_directory.php"><i class="fa fa-dashboard"></i> Staff Directory</a></li>
         <li><a href="Tan/staffdashboard.php"><i class="fa fa-dashboard"></i> Leave Management</a></li>
+        <li><a href="Tan/staffCalendar.php"><i class="fa fa-calendar"></i> Leave Calendar</a></li>
 	</ul>
 </div>
